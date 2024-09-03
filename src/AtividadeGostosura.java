@@ -28,9 +28,9 @@ public class AtividadeGostosura {
         String resultado = String.format("Para fazer %d sanduíches, você vai precisar de:\n", quantidadeSanduiches) +
                 String.format("- %.2f kg de queijo\n", pesoTotalQueijoKg) +
                 String.format("- %.2f kg de presunto\n", pesoTotalPresuntoKg) +
-                String.format("- %.2f kg de hambúrguer\n", pesoTotalHamburguerKg);
-
+                String.format("- %.2f kg de hambúrguer\n", pesoTotalHamburguerKg) +
+                String.format("- %.2f faturamento\n", faturamento);
         JOptionPane.showMessageDialog(null, resultado);
-        JOptionPane.showMessageDialog(null,  faturamento);
+
     }
 }
